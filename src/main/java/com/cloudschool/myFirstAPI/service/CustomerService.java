@@ -3,7 +3,6 @@ package com.cloudschool.myFirstAPI.service;
 import com.cloudschool.myFirstAPI.model.Customer;
 import com.cloudschool.myFirstAPI.repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
-
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,7 +19,6 @@ public class CustomerService {
         return customerRepository.findAll();
     }
 
-
     public Customer getCustomerById(Integer id) {
         return customerRepository.findById(id).get();
     }
@@ -35,7 +33,7 @@ public class CustomerService {
 
     public Customer updateCustomer(Integer id, Customer newCustomer) {
         Optional<Customer> customer = customerRepository.findById(id);
-        if(customer.isPresent()) {
+        if (customer.isPresent()) {
             customer.get().setName(newCustomer.getName());
             customer.get().setEmail(newCustomer.getEmail());
         }

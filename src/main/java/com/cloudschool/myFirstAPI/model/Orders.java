@@ -1,6 +1,5 @@
 package com.cloudschool.myFirstAPI.model;
 
-import com.sun.istack.NotNull;
 import lombok.Data;
 
 import javax.persistence.Entity;

@@ -1,8 +1,8 @@
 package com.cloudschool.myFirstAPI.service;
 
 
-import com.cloudschool.myFirstAPI.repository.ProductRepository;
 import com.cloudschool.myFirstAPI.model.Product;
+import com.cloudschool.myFirstAPI.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

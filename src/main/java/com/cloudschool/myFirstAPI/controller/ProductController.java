@@ -1,8 +1,8 @@
 package com.cloudschool.myFirstAPI.controller;
 
 
-import com.cloudschool.myFirstAPI.service.ProductService;
 import com.cloudschool.myFirstAPI.model.Product;
+import com.cloudschool.myFirstAPI.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

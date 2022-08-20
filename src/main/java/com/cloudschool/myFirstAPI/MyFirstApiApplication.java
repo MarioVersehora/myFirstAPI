@@ -1,4 +1,4 @@
-package com.clouldschool.myFirstAPI;
+package com.cloudschool.myFirstAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

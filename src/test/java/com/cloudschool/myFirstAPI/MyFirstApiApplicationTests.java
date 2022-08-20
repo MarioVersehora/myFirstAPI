@@ -1,4 +1,4 @@
-package com.clouldschool.myFirstAPI;
+package com.cloudschool.myFirstAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
